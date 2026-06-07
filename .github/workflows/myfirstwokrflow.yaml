@@ -1,0 +1,9 @@
+name: my firt job
+on: push
+jobs:
+    job-1:
+        runs-on: ubuntu-latest
+        steps:
+            - run: echo "Hello from step one"
+            
+  
